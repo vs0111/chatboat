@@ -1,0 +1,302 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "librery",
+      "patterns": [
+        "Librery faculty",
+        "who is the librery faculty",
+        "who is the librery faculty here",
+        "who is the librery librery faculty there",
+        "faculty of librery",
+        "who manages the librery",
+        "faculty of library in this college",
+        "librarian",
+        "who is the librarian",
+        "who is the librarian of this college",
+        "who is librarian",
+        "librarian of this college",
+        "name of library faculty"
+      ],
+      "responses": [
+        "Babysree madam",
+        "babysree madam is the librery faculty of this college",
+        "librery faculty is babysree madam"
+      ]
+    },
+    {
+      "tag": "feebca",
+      "patterns": [
+        "BCA Fee",
+        "what is the fee for BCA",
+        "how much is the fee BCA",
+        "how much is BCA's fee",
+        "fee for BCA",
+        "BCA's fee",
+        "BCA's fee",
+        "how much is BCA fee"
+      ],
+      "responses": [
+        "16900 rupees",
+        "currently 16900"
+      ]
+    },
+    {
+      "tag": "feebcom",
+      "patterns": [
+        "Bcom Fee",
+        "what is the fee for Bcom",
+        "how much is the fee Bcom",
+        "how much is Bcom's fee",
+        "fee for Bcom",
+        "Bcom's fee",
+        "Bcom's fee",
+        "how much is Bcom fee" 
+      ],
+      "responses": [
+        "11100 rupees",
+        "currently 11100"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "courses and fees",
+        "details of courses and fees here",
+        "details of courses and fees",
+        "courses and fees",
+        "courses and fees details",
+        "details of courses and fees there",
+        "which courses offer here",
+        "what is the fee details",
+        "show the fee details"
+      ],
+      "responses": [
+        "BCA:16900, Bsc computer science:16900, Bcom:11100",
+        "BCA: 16900, Bsc computer science: 16900, Bcom: 11100"
+      ]
+    },
+    {
+      "tag": "departmentsnumber",
+      "patterns": [
+        "how many deparments are there in this college",
+        "how many departments are there",
+        "how many departments are here",
+        "number of deparments",
+        "number of departments",
+        "how many departments here"
+      ],
+      "responses": [
+        "2 departments",
+        "there have 2 deparments here"
+      ]
+    },
+    {
+      "tag": "headcs",
+      "patterns": [
+        "who is the head of cs department",
+        "who is the head of cs",
+        "who is the head of computer science department",
+        "who is the head of computer science",
+        "head of computer science",
+        "computer science head",
+        "head of computer science department",
+        "head of cs",
+        "head of cs deparment",
+        "name of hod cs department",
+        "name of hod computer science deparment" 
+      ],
+      "responses": [
+        "malihabi madam",
+        "malihabi madam is the head of computer science department",
+        "HOD of computer science deparment is malihabi madam"
+      ]
+    },
+    {
+      "tag": "headcommerce",
+      "patterns": [
+        "who is the head of commerce deparment",
+        "who is the head of commerce",
+        "who is the head of  Bcom deparment",
+        "who is the head of bcom",
+        "head of commerce",
+        " commerce head",
+        "head commerce department",
+        "head of Bcom",
+        "head of Bcom deparment",
+        "name of hod commerce deparment",
+        "name of hod bcom department" 
+      ],
+      "responses": [
+        "sameeka madam",
+        "sameeka madam is the head of  commerce department",
+        "HOD of comerce deparment is sameeka madam"
+      ]
+    },
+    {
+      "tag": "feecs",
+      "patterns": [
+        "Bsc computer computer science Fee",
+        "what is the fee for Bsc computer science",
+        "how much is the fee Bsc computer science",
+        "how much is Bsc computer science's fee",
+        "fee for Bsc computer science",
+        "Bsc computer science's fee",
+        "Bsc computer science's fee",
+        "how much is Bsc computer science fee"
+      ],
+      "responses": [
+        "16900 rupees.",
+        "16900."
+      ]
+    },
+     {
+      "tag": "wrkinghours",
+      "patterns": [
+        "working hours",
+        "what is the working hours",
+        "what is the working hours of this college",
+        "working hours of the college",
+        "how long will this college run"
+     
+      ],
+      "responses": [
+        "9.30 am to 3.30 pm",
+        "9.30 to 3.30"
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "hostel fecilities",
+        "hostel fecilities are there",
+        "hostel fecilities are here",
+        "does the college have hostel fecilities",
+        "is there a hostel",
+        "food and accomodation",
+        "is accomodation available at this college",
+        "is accomodation available in the college",
+        "is accomodation available"
+      ],
+      "responses": [
+        "there is no hostel fecilities in this college.",
+        "no hostel fecilities available here"
+      ]
+    },
+    {
+      "tag": "principal",
+      "patterns": [
+        "name of principal,",
+        "what is the name of principal",
+        "principal name",
+        "principal's name",
+        "name of principal",
+        "principal",
+        "who is the principal"
+      ],
+      "responses": [
+        " our principal prof. [Dr.]Rameshan.p msc, PhD",
+        "prof. [Dr.]Rameshan.p msc, PhD"
+      ]
+    }, 
+    {
+      "tag": "contactnumber",
+      "patterns": [
+        "contact number",
+        "give college contact",
+        "give office number",
+        "contact number",
+        "give contact number",
+        "what is the contact number of college",
+        "give phone number",
+        "phone number"
+      ],
+      "responses": [
+        "04942410135,04942412310"
+      ]
+    },
+     {
+      "tag": "contactdetails",
+      "patterns": [
+        "contact details",
+        "give address of college",
+        "give college contact details",
+        "address",
+        "address of college"
+      ],
+      "responses": [
+        "LBS Model college NCC road junction tanur road parappanangadi malappuram 676319 phone: 04942410135"  
+      ]
+    },
+     {
+      "tag": "establishedyear",
+      "patterns": [
+        "what year was this college started",
+        "established year",
+        "in which year college was established"
+      ],
+      "responses": [
+        "established year is 2016,The first batch is pass out in 2018-2019"
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "is hostel facilities are there",
+        "is hostel facilities are here",
+        "does the college have hostel facilities",
+        "is hostel available at this college"
+      ],
+      "responses": [
+        "there is no hostel facilities",
+        "there is no hostel"
+      ]
+    },
+     {
+      "tag": "bus",
+      "patterns": [
+        "is there a bus service at this college",
+        "is bus service available here",
+        "is there a bus service for students to travel"
+      ],
+      "responses": [
+        "there is no college bus service",
+        "no college bus service here"
+      ]
+    }
+     
+      
+   
+    
+  ]
+}
